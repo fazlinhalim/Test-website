@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Ffood-background&psig=AOvVaw1M3F5TOav8H2QeliwyERli&ust=1729768579405000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJD1kaSwpIkDFQAAAAAdAAAAABAg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 24px; /* Adjust size as needed */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}
